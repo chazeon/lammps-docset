@@ -28,7 +28,7 @@ jobs:
 
       - name: Install doxygen
         run: |
-          apt-get install doxygen
+          sudo apt-get install doxygen
 
       - name: Install dependencies
         run: |
