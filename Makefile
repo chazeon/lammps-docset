@@ -11,7 +11,7 @@ docset: doc
 doc:
 	mkdir -p $(LAMMPS_DIR)
 	curl -fsSL https://download.lammps.org/tars/lammps.tar.gz --output - |\
-		tar -xvf - --strip-components=1 --directory=$(LAMMPS_DIR)
+		tar -xzvf - --strip-components=1 --directory=$(LAMMPS_DIR)
 	$(MAKE) -C $(LAMMPS_DIR)/doc html
 
 clean:
