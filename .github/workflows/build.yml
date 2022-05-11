@@ -36,7 +36,6 @@ jobs:
 
       - name: Build documents
         run: |
-          make doc
           make docset
           
       - name: Upload a Build Artifact
