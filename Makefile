@@ -5,7 +5,7 @@ DOCSET_DOCS=$(DOCSET_ROOT)/Contents/Resources/Documents
 docset: doc
 	rm -rv $(DOCSET_DOCS) || true
 	mkdir -p $(DOCSET_DOCS)
-	cp -rv $(LAMMPS_DIR)/doc/* $(DOCSET_DOCS)
+	cp -rv $(LAMMPS_DIR)/doc/html/* $(DOCSET_DOCS)
 	python3 script/build.py
 
 doc:
