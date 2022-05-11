@@ -1,6 +1,6 @@
 LAMMPS_DIR=lammps
 DOCSET_ROOT=lammps.docset
-DOCSET_DOCS=$(DOCSET_DOCS)/Contents/Resources/Documents
+DOCSET_DOCS=$(DOCSET_ROOT)/Contents/Resources/Documents
 
 docset: doc
 	rm -rv $(DOCSET_DOCS) || true
