@@ -14,7 +14,7 @@
 	<string>dashtoc</string>
 	<key>dashIndexFilePath</key>
 	<string>Manual.html</string>
-	<key>isJavaScriptEnabled</key><false/>
+	<key>isJavaScriptEnabled</key><true/>
 	<key>DashDocSetFallbackURL</key>
 	<string>https://docs.lammps.org/</string>
 </dict>
